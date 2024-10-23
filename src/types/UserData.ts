@@ -15,7 +15,9 @@ interface Link {
 
 interface Skills {
     categoryName: string;
-    skills: Skill[]
+    skills: Skill[],
+    bgColor: String;
+    pillBgColor: String;
 }
 
 // Define the types for skills
@@ -34,6 +36,7 @@ interface Experience {
     location: string;
     logo: string;
     summary: string[];
+    themeColor: string;
 }
 
 // Define the types for education
@@ -69,15 +72,15 @@ interface Certification {
 interface Project {
     title: string,
     description: string,
-    technologies: string,
+    technologies: string[],
     image: string,
     link: string,
     source: string,
+    headerImage: string,
 }
 
 // Define the main structure that includes all the components
 export default interface UserProfile {
-    profile: Profile;
     skills: Skills[];
     experience: Experience[];
     education: Education[];

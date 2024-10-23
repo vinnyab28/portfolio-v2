@@ -2,59 +2,59 @@ const ExperienceData = [
 	{
 		name: "SAMSUNG ELECTRO-MECHANICS",
 		position: "ENGINEER CL-2",
-		startDate: "2021-11-01", // Assuming the start date is November 1, 2021
-		endDate: "2023-12-31", // Assuming the end date is December 31, 2023
+		startDate: "Nov 2021", // Assuming the start date is November 1, 2021
+		endDate: "Dec 2023", // Assuming the end date is December 31, 2023
 		currentlyWorking: false, // Change to true if you are still working there
-		location: "Your Location Here", // Replace with the actual location
-		logo: "URL_to_Samsung_Logo", // Replace with the actual URL to the logo
+		location: "Bangalore, India 🇮🇳", // Replace with the actual location
+		logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Samsung_Electro-Mechanics_logo_%28english%29.svg/320px-Samsung_Electro-Mechanics_logo_%28english%29.svg.png", // Replace with the actual URL to the logo
+		themeColor: "blue-800",
 		summary: [
-			"Developed dashboards, landing pages, and online applications using Angular, TypeScript, PrimeNG, and SCSS.",
-			"Utilized lazy loading and server-side rendering to optimize page load times for large tabular data and images.",
-			"Contributed to the development of RESTful services using Java Spring Boot and integrated them with the frontend.",
-			"Handled authorization and authentication in the frontend using JWT tokens.",
-			"Used JIRA for project tracking and contributed to the development of dashboards for effective information visualization.",
-			"Supported DevOps in building CI/CD pipelines using Jenkins, optimizing build time with custom NPM scripts.",
-			"Performed unit testing with JUnit and Mockito to ensure functionality and performance across browsers.",
-			"Collaborated with UI/UX designers in UI design discussions to create user-friendly interfaces.",
-			"Conducted code reviews for structural validation, security assessments, and cross-browser compatibility, achieving a 99% bug-free release rate.",
-			"Participated in the recruitment process for UI development roles, conducting technical interviews and facilitating team integration.",
+			"Developed dashboards and applications using Angular, TypeScript, PrimeNG, and SCSS, optimizing performance with lazy loading and server-side rendering.",
+			"Contributed to RESTful services with Java Spring Boot and managed frontend authentication via JWT tokens.",
+			"Utilized JIRA for project tracking and created information visualization dashboards.",
+			"Supported CI/CD pipeline development with Jenkins and custom NPM scripts.",
+			"Conducted unit testing with JUnit and Mockito for functionality and performance.",
+			"Collaborated with UI/UX designers for user-friendly interfaces and conducted code reviews, achieving a 99% bug-free release rate.",
+			"Participated in recruiting UI development roles through technical interviews.",
 		],
 	},
 	{
 		name: "GRABON",
 		position: "FRONT-END DEVELOPER",
-		startDate: "2020-09-01", // Assuming the start date is September 1, 2020
-		endDate: "2021-11-30", // Assuming the end date is November 30, 2021
+		startDate: "Sep 2020", // Assuming the start date is September 1, 2020
+		endDate: "Nov 2021", // Assuming the end date is November 30, 2021
 		currentlyWorking: false, // Change to true if you are still working there
-		location: "Your Location Here", // Replace with the actual location
-		logo: "URL_to_GrabOn_Logo", // Replace with the actual URL to the logo
+		location: "Hyderabad, India 🇮🇳", // Replace with the actual location
+		logo: "https://upload.wikimedia.org/wikipedia/commons/7/71/GrabOn_-_Official_Logo.png", // Replace with the actual URL to the logo
+		themeColor: "green-500",
 		summary: [
-			"Developed a robust Content Management System (CMS) using Angular, Node.js, PrimeNG, and SCSS, providing clients with an intuitive interface for content management.",
-			"Coupled website development with ASP.NET MVC Framework and MySQL for backend implementation.",
-			"Utilized build tools such as Webpack and Gulp to streamline development processes, reducing build times by 30%.",
-			"Implemented SEO configurations in the CMS, resulting in a 20% increase in organic traffic while adhering to SEO best practices.",
-			"Assisted in designing timelines and specifications to create accurate project deadlines and budgetary metrics.",
-			"Utilized debugging tools like Chrome Inspector to identify and resolve issues prior to publishing, achieving a 99% bug-free release rate.",
-			"Conducted technical interviews for UI Development roles, supporting team growth and onboarding qualified candidates.",
-			"Received the Excellence Award in July 2021 for outstanding contributions to project success and team collaboration.",
+			"Developed a CMS using Angular, Node.js, PrimeNG, and SCSS for intuitive content management.",
+			"Integrated ASP.NET MVC Framework and MySQL for backend development.",
+			"Streamlined development with Webpack and Gulp, reducing build times by 30%.",
+			"Implemented SEO in the CMS, increasing organic traffic by 20%.",
+			"Assisted in project timelines and budget specifications.",
+			"Used Chrome Inspector for debugging, achieving a 99% bug-free release rate.",
+			"Conducted technical interviews for UI Development roles.",
+			"Received the Excellence Award in July 2021 for project contributions.",
 		],
 	},
 	{
 		name: "TATA ELXSI",
 		position: "ASSOCIATE ENGINEER",
-		startDate: "2018-07-01", // Assuming the start date is July 1, 2018
-		endDate: "2020-08-31", // Assuming the end date is August 31, 2020
+		startDate: "Jul 2018", // Assuming the start date is July 1, 2018
+		endDate: "Aug 2020", // Assuming the end date is August 31, 2020
 		currentlyWorking: false, // Change to true if you are still working there
-		location: "Your Location Here", // Replace with the actual location
-		logo: "URL_to_TataElxsi_Logo", // Replace with the actual URL to the logo
+		location: "Bangalore, India 🇮🇳", // Replace with the actual location
+		logo: "https://upload.wikimedia.org/wikipedia/commons/9/98/Tata_elxsi_sqaure.png", // Replace with the actual URL to the logo
+		themeColor: "blue-500",
 		summary: [
-			"Developed front-end components using HTML, CSS, JavaScript, Angular, jQuery, Bootstrap, and Material Design, ensuring responsiveness.",
-			"Contributed to back-end development using Node.js, Express, PHP, and MySQL, with hands-on experience in Zend Framework 3 and deployment on AWS.",
-			"Designed UI/UX for four web portal applications focused on analytics, application configuration, and user management.",
-			"Managed version control using GIT, implementing a structured review process to maintain code stability and quality.",
-			"Gained comprehensive experience in all project phases utilizing both Waterfall and Agile methodologies, enhancing adaptability and project delivery.",
-			"Planned and reported daily tasks using JIRA, ensuring transparency and accountability within the team.",
-			"Created site maps, user flows, wireframes, and mockups based on proven methodologies, stakeholder requests, and end-user feedback.",
+			"Developed responsive front-end components using HTML, CSS, JavaScript, Angular, jQuery, Bootstrap, and Material Design.",
+			"Contributed to back-end development with Node.js, Express, PHP, MySQL, and Zend Framework 3 on AWS.",
+			"Designed UI/UX for four web portal applications focused on analytics and user management.",
+			"Managed version control with GIT, implementing a structured review process for code quality.",
+			"Gained experience in all project phases using Waterfall and Agile methodologies.",
+			"Planned and reported tasks using JIRA for team transparency.",
+			"Created site maps, user flows, wireframes, and mockups based on methodologies and user feedback.",
 		],
 	},
 ];

@@ -1,6 +1,8 @@
 const SkillsData = [
 	{
 		categoryName: "Frontend Development",
+		bgColor: "bg-indigo-300",
+		pillBgColor: "bg-indigo-100",
 		skills: [
 			{ name: "HTML", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" },
 			{ name: "CSS", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/240px-CSS3_logo.svg.png" },
@@ -22,6 +24,8 @@ const SkillsData = [
 	},
 	{
 		categoryName: "Backend Development",
+		bgColor: "bg-fuchsia-300",
+		pillBgColor: "bg-fuchsia-100",
 		skills: [
 			{ name: "Node.js", logo: "https://nodejs.org/static/images/logo.svg" },
 			{ name: "Express", logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
@@ -40,18 +44,22 @@ const SkillsData = [
 	},
 	{
 		categoryName: "Cloud and Hosting",
+		bgColor: "bg-rose-300",
+		pillBgColor: "bg-rose-100",
 		skills: [
 			{ name: "AWS", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/320px-Amazon_Web_Services_Logo.svg.png" },
-			{
-				name: "Heroku",
-				logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cib-heroku_%28CoreUI_Icons_v1.0.0%29.svg/32px-Cib-heroku_%28CoreUI_Icons_v1.0.0%29.svg.png",
-			},
+			// {
+			// 	name: "Heroku",
+			// 	logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cib-heroku_%28CoreUI_Icons_v1.0.0%29.svg/32px-Cib-heroku_%28CoreUI_Icons_v1.0.0%29.svg.png",
+			// },
 			{ name: "Docker", logo: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" },
 			{ name: "Render", logo: "https://render.com/favicon.ico" },
 		],
 	},
 	{
 		categoryName: "Design and Prototyping",
+		bgColor: "bg-teal-300",
+		pillBgColor: "bg-teal-100",
 		skills: [
 			{ name: "Figma", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/160px-Figma-logo.svg.png" },
 			{ name: "Sketch", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/266px-Sketch_Logo.svg.png" },
@@ -60,6 +68,8 @@ const SkillsData = [
 	},
 	{
 		categoryName: "Build and Task Automation",
+		bgColor: "bg-amber-300",
+		pillBgColor: "bg-amber-100",
 		skills: [
 			{ name: "NPM", logo: "https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg" },
 			{ name: "Webpack", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Webpack.svg/320px-Webpack.svg.png" },
@@ -68,6 +78,8 @@ const SkillsData = [
 	},
 	{
 		categoryName: "Version Control",
+		bgColor: "bg-violet-300",
+		pillBgColor: "bg-violet-100",
 		skills: [
 			{
 				name: "GIT",
@@ -84,6 +96,8 @@ const SkillsData = [
 	},
 	{
 		categoryName: "Project Management Tools",
+		bgColor: "bg-emerald-300",
+		pillBgColor: "bg-emerald-100",
 		skills: [
 			{ name: "JIRA", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Jira_Logo.svg/76px-Jira_Logo.svg.png" },
 			{
@@ -94,6 +108,8 @@ const SkillsData = [
 	},
 	{
 		categoryName: "Debugging and Testing",
+		bgColor: "bg-blue-300",
+		pillBgColor: "bg-blue-100",
 		skills: [
 			{ name: "Chrome Inspector" },
 			{ name: "JUnit", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/JUnit_5_Banner.png/320px-JUnit_5_Banner.png" },
@@ -103,6 +119,8 @@ const SkillsData = [
 	},
 	{
 		categoryName: "Methodologies",
+		bgColor: "bg-cyan-300",
+		pillBgColor: "bg-cyan-100",
 		skills: [{ name: "Waterfall" }, { name: "Agile" }, { name: "Scrum" }],
 	},
 ];
