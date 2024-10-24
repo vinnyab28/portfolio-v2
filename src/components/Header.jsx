@@ -21,19 +21,19 @@ const Header = () => {
 				<div className="logo font-bold text-5xl">VPG</div>
 				<nav className="flex gap-3 font-bold ">
 					<a href="#about" type="button" className="p-2 hover:bg-comic-red hover:text-white border-black border-4 border-r-8 border-b-8 transition-all">
-						About
+						Story
 					</a>
 					<a href="#skills" type="button" className="p-2 hover:bg-comic-blue hover:text-white border-black border-4 border-r-8 border-b-8 transition-all">
-						Skills
+						Powers
 					</a>
 					<a href="#experience" type="button" className="p-2 hover:bg-comic-green hover:text-white border-black border-4 border-r-8 border-b-8 transition-all">
-						Experience
+						Journey
 					</a>
 					<a href="#projects" type="button" className="p-2 hover:bg-comic-yellow border-black border-4 border-r-8 border-b-8 transition-all">
-						Projects
+						Quests
 					</a>
 					<a href="#contact" type="button" className={`p-2 hover:bg-comic-violet hover:text-white border-black border-4 border-r-8 border-b-8 transition-all`}>
-						Contact Me
+						Signal Me
 					</a>
 				</nav>
 			</div>

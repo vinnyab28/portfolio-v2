@@ -8,7 +8,7 @@ const ProfessionalExperience = () => {
 	return (
 		<section className="experience bg-comic-green" id="experience">
 			<h1 className="text-white" style={{ textShadow: "4px 3px 1px black" }}>
-				My Experience Map
+				My Jounrey Map
 			</h1>
 			<div className="grid grid-cols-6 grid-rows-3 gap-4 w-full text-left">
 				{experience.map((company, index) => (

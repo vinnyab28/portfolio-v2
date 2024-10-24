@@ -5,7 +5,7 @@ const ProjectsSection = () => {
 
 	return (
 		<section className="projects bg-comic-yellow" id="projects">
-			<h1 style={{ textShadow: "4px 3px 1px ivory" }}>Project Gallery</h1>
+			<h1 style={{ textShadow: "4px 3px 1px ivory" }}>My Quest Collection</h1>
 			<div className="grid grid-cols-3 gap-4">
 				{projects.map((project, index) => {
 					return (
@@ -13,9 +13,16 @@ const ProjectsSection = () => {
 							<div className="project-card-header flex items-center gap-4">
 								<div className="project-card-icon flex  rounded-sm justify-center items-center">
 									{/* <img src={project.image} className="w-12 h-12" /> */}
-									<p className="text-3xl " style={{ textShadow: "4px 3px 1px black" }}>
+									{project.image.length > 5 ? (
+										<img src={project.image} className="h-8" />
+									) : (
+										<p className="text-3xl " style={{ textShadow: "4px 3px 1px black" }}>
+											{project.image}
+										</p>
+									)}
+									{/* <p className="text-3xl " style={{ textShadow: "4px 3px 1px black" }}>
 										{project.image}
-									</p>
+									</p> */}
 								</div>
 								<div className="project-card-title font-bold">{project.title}</div>
 							</div>

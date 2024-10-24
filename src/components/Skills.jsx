@@ -6,7 +6,7 @@ const Skills = () => {
 	return (
 		<section className="skills bg-comic-blue" id="skills">
 			<h1 className="text-white" style={{ textShadow: "4px 3px 1px black" }}>
-				My Toolbox
+				My Utility Belt
 			</h1>
 			<ul className="flex flex-wrap gap-5 justify-center">
 				{skills.map((category, index) => {
