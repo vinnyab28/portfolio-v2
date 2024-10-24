@@ -1,7 +1,9 @@
 const Footer = () => {
 	return (
-		<footer className="">
-			<p className="py-5">Designed by Vineeth</p>
+		<footer className="border-4 border-black">
+			<p className="py-5">
+				Designed by <strong>Vineeth Prakash Gudipalli</strong>
+			</p>
 		</footer>
 	);
 };

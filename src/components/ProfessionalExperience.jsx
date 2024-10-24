@@ -6,14 +6,16 @@ const ProfessionalExperience = () => {
 	const [selectedCompanyIndex, setSelectedCompanyIndex] = useState(0);
 
 	return (
-		<section className="experience rounded-3xl" id="experience">
-			<h1>My Experience Map</h1>
+		<section className="experience bg-comic-green" id="experience">
+			<h1 className="text-white" style={{ textShadow: "4px 3px 1px black" }}>
+				My Experience Map
+			</h1>
 			<div className="grid grid-cols-6 grid-rows-3 gap-4 w-full text-left">
 				{experience.map((company, index) => (
 					<button
 						className={
-							`bg-white border border-${company.themeColor} py-6 col-span-2 rounded-2xl transition-all ` +
-							(selectedCompanyIndex === index && `bg-${company.themeColor} text-white font-bold`)
+							` border-4 border-r-8 border-b-8 border-black py-6 col-span-2 rounded-sm text-xl transition-all ` +
+							(selectedCompanyIndex === index ? `bg-black text-white font-bold` : `bg-white`)
 						}
 						key={index}
 						onClick={() => setSelectedCompanyIndex(index)}
@@ -21,9 +23,7 @@ const ProfessionalExperience = () => {
 						{company.name}
 					</button>
 				))}
-				<div
-					className={`bg-white border-4 border-${experience[selectedCompanyIndex].themeColor} bg-${experience[selectedCompanyIndex].themeColor}/50 shadow-lg shadow-${experience[selectedCompanyIndex].themeColor} rounded p-4 col-span-4 col-start-3 row-start-1 row-span-3 `}
-				>
+				<div className={`bg-white border-r-8 border-b-8 border-4 border-black shadow-lg  rounded-sm p-4 col-span-4 col-start-3 row-start-1 row-span-3 `}>
 					<div className="header bg-white flex items-center gap-4 mb-4">
 						<img src={experience[selectedCompanyIndex].logo} alt={experience[selectedCompanyIndex].name} className="w-24 max-h-12 object-contain" />
 						<div className="title grow">
@@ -36,7 +36,10 @@ const ProfessionalExperience = () => {
 					<div className="body h-auto overflow-y-scroll">
 						<ul className="list-none list-inside">
 							{experience[selectedCompanyIndex].summary.map((text, index) => (
-								<li>👉 {text}</li>
+								<li className="flex gap-4">
+									<span style={{ textShadow: "3px 2px 1px black" }}>👉</span>
+									<p>{text}</p>
+								</li>
 							))}
 						</ul>
 					</div>

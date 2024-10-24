@@ -16,24 +16,24 @@ const Header = () => {
 		}
 	}, []);
 	return (
-		<header className={`fixed w-full top-0 transition-all ${bgOpacity}`}>
+		<header className={`fixed w-full bg-white border-4 border-black top-0 transition-all`}>
 			<div className="container mx-auto py-4 flex items-center justify-between">
-				<div className="logo font-bold text-2xl">VPG</div>
-				<nav className="flex gap-3">
-					<a href="#about" type="button" className="p-2 rounded border border-gray-400 hover:border-black">
+				<div className="logo font-bold text-5xl">VPG</div>
+				<nav className="flex gap-3 font-bold ">
+					<a href="#about" type="button" className="p-2 hover:bg-comic-red hover:text-white border-black border-4 border-r-8 border-b-8 transition-all">
 						About
 					</a>
-					<a href="#skills" type="button" className="p-2 rounded border border-gray-400 hover:border-black">
+					<a href="#skills" type="button" className="p-2 hover:bg-comic-blue hover:text-white border-black border-4 border-r-8 border-b-8 transition-all">
 						Skills
 					</a>
-					<a href="#experience" type="button" className="p-2 rounded border border-gray-400 hover:border-black">
+					<a href="#experience" type="button" className="p-2 hover:bg-comic-green hover:text-white border-black border-4 border-r-8 border-b-8 transition-all">
 						Experience
 					</a>
-					<a href="#projects" type="button" className="p-2 rounded border border-gray-400 hover:border-black">
+					<a href="#projects" type="button" className="p-2 hover:bg-comic-yellow border-black border-4 border-r-8 border-b-8 transition-all">
 						Projects
 					</a>
-					<a href="#contact" type="button" className={`p-2 rounded border border-gray-400 hover:border-black`}>
-						Contact
+					<a href="#contact" type="button" className={`p-2 hover:bg-comic-violet hover:text-white border-black border-4 border-r-8 border-b-8 transition-all`}>
+						Contact Me
 					</a>
 				</nav>
 			</div>

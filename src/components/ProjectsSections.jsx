@@ -4,16 +4,16 @@ const ProjectsSection = () => {
 	const projects = ProjectsData;
 
 	return (
-		<section className="projects" id="projects">
-			<h1>Project Gallery</h1>
+		<section className="projects bg-comic-yellow" id="projects">
+			<h1 style={{ textShadow: "4px 3px 1px ivory" }}>Project Gallery</h1>
 			<div className="grid grid-cols-3 gap-4">
 				{projects.map((project, index) => {
 					return (
-						<div className="project-card flex flex-col border border-black rounded p-4 overflow-hidden" key={index}>
-							<div className="project-card-header flex gap-4">
-								<div className="project-card-icon flex border rounded shadow-lg justify-center items-center w-12 h-12">
+						<div className="project-card bg-white flex flex-col border-black border-4 border-r-8 border-b-8 rounded-sm p-4 overflow-hidden" key={index}>
+							<div className="project-card-header flex items-center gap-4">
+								<div className="project-card-icon flex  rounded-sm justify-center items-center">
 									{/* <img src={project.image} className="w-12 h-12" /> */}
-									<p className="text-3xl " style={{ "text-shadow": "2px 2px 2px black" }}>
+									<p className="text-3xl " style={{ textShadow: "4px 3px 1px black" }}>
 										{project.image}
 									</p>
 								</div>
@@ -30,8 +30,8 @@ const ProjectsSection = () => {
 									{project.source && (
 										<a href={project.source} target="_blank" rel="noreferrer">
 											<img
-												className="h-8 hover:ring-black hover:ring-2 rounded-full"
-												src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+												className="h-7 hover:ring-black hover:ring-2 rounded-full"
+												src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png"
 												alt="GitHub"
 											/>
 										</a>

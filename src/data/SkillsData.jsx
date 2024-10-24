@@ -85,7 +85,7 @@ const SkillsData = [
 				name: "GIT",
 				logo: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
 			},
-			{ name: "GitHub", logo: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" },
+			{ name: "GitHub", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png" },
 			{ name: "GitLab", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/GitLab_logo.svg/320px-GitLab_logo.svg.png" },
 			{
 				name: "Bitbucket",

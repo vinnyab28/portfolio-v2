@@ -1,7 +1,7 @@
 const ProjectsData = [
 	{
 		title: "Little Light",
-		description: "Caring Support for Your Journey to Emotional Well-being",
+		description: "A mental wellness support website developed at Dalhousie University.",
 		// technologies: "HTML, CSS, JS, Bootstrap",
 		image: "😇",
 		technologies: [
@@ -18,7 +18,7 @@ const ProjectsData = [
 	},
 	{
 		title: "Re.Connect",
-		description: "Connecting with recommenders",
+		description: "A website to connect and chat with job recommenders developed at Dalhousie University.",
 		// technologies: "HTML, CSS, JS, Bootstrap",
 		image: "🧑‍💼",
 		technologies: [
@@ -35,7 +35,7 @@ const ProjectsData = [
 	},
 	{
 		title: "Thrill of Hope",
-		description: "Christmas page for my church",
+		description: "An interactive Christmas invitation designed and developed for our church.",
 		// technologies: "HTML, CSS, JS, ScrollMagic, Webpack",
 		image: "🎄",
 		technologies: [
@@ -50,7 +50,7 @@ const ProjectsData = [
 	},
 	{
 		title: "Guitar Chords",
-		description: "Christmas page for my church",
+		description: "An easy tool to help me transpose and modify chord scales.",
 		// technologies: "Angular, Bootstrap",
 		image: "🎸",
 		technologies: ["https://angular.io/assets/images/logos/angular/angular.svg", "https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg"],
@@ -72,6 +72,16 @@ const ProjectsData = [
 		headerImage: "",
 		link: "https://vinnyab28.github.io/a-and-k-reception/",
 		source: "https://github.com/vinnyab28/a-and-k-reception",
+	},
+	{
+		title: "3D Pokeballs",
+		description: "3D rendering of Pokeballs with different variations to learn Blender",
+		// technologies: "HTML, CSS, JS, Bootstrap",
+		image: "💍",
+		technologies: ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/293px-Blender_logo_no_text.svg.png"],
+		headerImage: "",
+		link: "https://www.behance.net/gallery/210838469/Pokeballs",
+		source: "",
 	},
 ];
 

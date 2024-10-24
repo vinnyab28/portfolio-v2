@@ -4,14 +4,16 @@ const Skills = () => {
 	const skills = SkillsData;
 
 	return (
-		<section className="skills" id="skills">
-			<h1>My Toolbox</h1>
+		<section className="skills bg-comic-blue" id="skills">
+			<h1 className="text-white" style={{ textShadow: "4px 3px 1px black" }}>
+				My Toolbox
+			</h1>
 			<ul className="flex flex-wrap gap-5 justify-center">
 				{skills.map((category, index) => {
 					return (
 						<div
 							className={
-								"flex flex-col items-center border border-black rounded-2xl px-3 py-2 transition-shadow shadow-lg hover:shadow-2xl " + category.bgColor
+								"flex flex-col items-center border-4 border-r-8 border-b-8 border-black rounded-sm px-3 py-3 transition-shadow shadow-lg " + category.bgColor
 							}
 							key={index}
 						>
@@ -21,7 +23,7 @@ const Skills = () => {
 									<li
 										key={index}
 										className={
-											"rounded-full flex items-center pl-3 pr-4 py-1 hover:font-bold hover:ring-2 hover:ring-slate-800 transition-all select-none border border-black " +
+											"flex items-center pl-3 pr-4 py-1 hover:font-bold  transition-all select-none border-4 border-r-8 border-b-8 border-black " +
 											category.pillBgColor
 										}
 									>
