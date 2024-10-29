@@ -23,7 +23,7 @@ code {
 
 @layer components {
 	section {
-		@apply px-16 py-20 border-4 border-black border-r-8 border-b-8;
+		@apply md:px-16 px-8 py-20 border-4 border-black border-r-8 border-b-8;
 		background-clip: border-box;
 	}
 

@@ -2,7 +2,7 @@ const AboutMe = () => {
 	return (
 		<section className="about-me bg-comic-red text-white" id="about">
 			<h1 style={{ textShadow: "4px 3px 1px black" }}>Who I Am</h1>
-			<div className="summary mx-auto font-bold w-1/2">
+			<div className="summary mx-auto font-bold w-full md:w-1/2">
 				<p>
 					Hi there! I’m passionate about using my skills to give back to the community. I enjoy working with Angular and find React to be a fun challenge. I
 					love creating personal websites to support the Open Source community and build projects that make a difference. I pay close attention to UI details

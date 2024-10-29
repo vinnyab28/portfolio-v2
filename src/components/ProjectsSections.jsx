@@ -6,7 +6,7 @@ const ProjectsSection = () => {
 	return (
 		<section className="projects bg-comic-yellow" id="projects">
 			<h1 style={{ textShadow: "4px 3px 1px ivory" }}>My Quest Collection</h1>
-			<div className="grid grid-cols-3 gap-4">
+			<div className="grid md:grid-cols-3 grid-cols-1 gap-4">
 				{projects.map((project, index) => {
 					return (
 						<div className="project-card bg-white flex flex-col border-black border-4 border-r-8 border-b-8 rounded-sm p-4 overflow-hidden" key={index}>

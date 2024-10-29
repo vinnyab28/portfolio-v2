@@ -14,13 +14,13 @@ const ContactMeSection = () => {
 
 	return (
 		<section className="contact-me text-white bg-comic-violet" id="contact">
-			<div className="grid grid-cols-2">
+			<div className="grid md:grid-cols-2 grid-cols-1">
 				<div className="contact-me-content">
-					<h1 className="text-left" style={{ textShadow: "4px 3px 1px black" }}>
+					<h1 className="md:text-left text-center" style={{ textShadow: "4px 3px 1px black" }}>
 						Send a Signal
 					</h1>
-					<p className="my-4 text-left mb-10">Looking for a partner to join the quest? Send a distress signal, and let’s strategize together!</p>
-					<div className="contact-me-links flex gap-3">
+					<p className="my-4 md:text-left text-center mb-10">Looking for a partner to join the quest? Send a distress signal, and let’s strategize together!</p>
+					<div className="contact-me-links flex justify-center md:justify-start gap-3">
 						<div className="border-4 border-r-8 border-b-8 border-black bg-white rounded-sm  h-10 w-10">
 							<a href="https://www.linkedin.com/in/vineeth-prakash" target="_blank" rel="noreferrer">
 								<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Linkedin-logo-blue-In-square-40px.png" alt="LinkedIn" className="h-100" />

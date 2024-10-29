@@ -1,7 +1,7 @@
 const ProjectsData = [
 	{
 		title: "Little Light",
-		description: "A mental wellness support website developed at Dalhousie University.",
+		description: "A mental wellness support hub crafted at Dalhousie University—your superhero sanctuary for the mind!",
 		// technologies: "HTML, CSS, JS, Bootstrap",
 		image: "😇",
 		technologies: [
@@ -18,7 +18,7 @@ const ProjectsData = [
 	},
 	{
 		title: "Re.Connect",
-		description: "A website to connect and chat with job recommenders developed at Dalhousie University.",
+		description: "A digital sidekick to connect and chat with job recommenders, brought to life at Dalhousie University!",
 		// technologies: "HTML, CSS, JS, Bootstrap",
 		image: "🧑‍💼",
 		technologies: [
@@ -35,7 +35,7 @@ const ProjectsData = [
 	},
 	{
 		title: "Thrill of Hope",
-		description: "An interactive Christmas invitation designed and developed for our church.",
+		description: "An interactive Christmas invitation designed and developed for our church—spreading holiday cheer like a true hero!",
 		// technologies: "HTML, CSS, JS, ScrollMagic, Webpack",
 		image: "🎄",
 		technologies: [
@@ -50,7 +50,7 @@ const ProjectsData = [
 	},
 	{
 		title: "Guitar Chords",
-		description: "An easy tool to help me transpose and modify chord scales.",
+		description: "An easy-to-use tool for transposing and modifying chord scales—your musical sidekick for epic jam sessions!",
 		// technologies: "Angular, Bootstrap",
 		image: "🎸",
 		technologies: ["https://angular.io/assets/images/logos/angular/angular.svg", "https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg"],
@@ -60,7 +60,7 @@ const ProjectsData = [
 	},
 	{
 		title: "Wedding Reception A&K",
-		description: "A wedding reception invitation for my brother and sister-in-law",
+		description: "A wedding reception invitation for my brother and sister-in-law—celebrating love like a legendary romance!",
 		// technologies: "HTML, CSS, JS, Bootstrap",
 		image: "💍",
 		technologies: [
@@ -75,9 +75,9 @@ const ProjectsData = [
 	},
 	{
 		title: "3D Pokeballs",
-		description: "3D rendering of Pokeballs with different variations to learn Blender",
+		description: "3D renderings of Pokéballs with various designs—leveling up my Blender skills like a true Pokémon master!",
 		// technologies: "HTML, CSS, JS, Bootstrap",
-		image: "💍",
+		image: "https://www.pngall.com/wp-content/uploads/4/Pokemon-Pokeball-PNG-File.png",
 		technologies: ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/293px-Blender_logo_no_text.svg.png"],
 		headerImage: "",
 		link: "https://www.behance.net/gallery/210838469/Pokeballs",
