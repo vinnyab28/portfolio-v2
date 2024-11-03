@@ -27,7 +27,11 @@ const ProfessionalExperience = () => {
 					className={`bg-white border-r-8 border-b-8 border-4 border-black shadow-lg  rounded-sm p-4 md:col-span-4 md:col-start-3 md:row-start-1 md:row-span-3 `}
 				>
 					<div className="header bg-white flex flex-col md:flex-row items-center gap-4 mb-4">
-						<img src={experience[selectedCompanyIndex].logo} alt={experience[selectedCompanyIndex].name} className="w-24 max-h-12 object-contain" />
+						<img
+							src={experience[selectedCompanyIndex].logo}
+							alt={experience[selectedCompanyIndex].name}
+							className="md:w-24 md:max-h-12 w-48 max-h-24 object-contain"
+						/>
 						<div className="title grow md:text-left text-center">
 							<h2 className="text-lg font-bold">{experience[selectedCompanyIndex].name}</h2>
 							<p className="italic text-sm">{"(" + experience[selectedCompanyIndex].startDate + " - " + experience[selectedCompanyIndex].endDate + ")"}</p>

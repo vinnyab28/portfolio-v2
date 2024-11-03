@@ -18,7 +18,7 @@ const Skills = () => {
 							key={index}
 						>
 							<p className="mb-2 font-bold">{category.categoryName}</p>
-							<div className="flex flex-wrap justify-center gap-1">
+							<div className="flex flex-wrap justify-center md:gap-1 gap-2">
 								{category.skills.map((skill, index) => (
 									<li
 										key={index}

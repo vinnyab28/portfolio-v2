@@ -1,0 +1,17 @@
+.tooltip-content {
+	@apply transition-all absolute -top-9 left-1/2 -translate-x-1/2 w-max px-2 border-black border-2 text-xs bg-black text-white;
+}
+
+.tooltip-content::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%, 100%);
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-top: 10px solid black;
+	border-bottom: 10px solid transparent;
+}

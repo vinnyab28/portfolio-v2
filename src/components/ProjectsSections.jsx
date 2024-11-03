@@ -1,4 +1,5 @@
 import ProjectsData from "../data/ProjectsData";
+import TooltipElement from "./TooltipElement";
 
 const ProjectsSection = () => {
 	const projects = ProjectsData;
@@ -30,27 +31,33 @@ const ProjectsSection = () => {
 							<div className="project-card-footer flex items-center">
 								<div className="project-footer-stack grow flex gap-2">
 									{project.technologies.map((technology, index) => (
-										<img key={index} className="h-6" src={technology} alt="" />
+										<TooltipElement label={technology.name}>
+											<img key={index} className="h-6" src={technology.image} alt="" />
+										</TooltipElement>
 									))}
 								</div>
 								<div className="project-footer-actions flex items-center gap-1">
 									{project.source && (
-										<a href={project.source} target="_blank" rel="noreferrer">
-											<img
-												className="h-7 hover:ring-black hover:ring-2 rounded-full"
-												src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png"
-												alt="GitHub"
-											/>
-										</a>
+										<TooltipElement label="Source">
+											<a href={project.source} target="_blank" rel="noreferrer">
+												<img
+													className="h-7 hover:ring-black hover:ring-2 rounded-full"
+													src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png"
+													alt="GitHub"
+												/>
+											</a>
+										</TooltipElement>
 									)}
 									{project.link && (
-										<a href={project.link} target="_blank" rel="noreferrer">
-											<img
-												className="h-7 hover:ring-black hover:ring-2 rounded-full"
-												src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Web_icon.png"
-												alt="Preview"
-											/>
-										</a>
+										<TooltipElement label="Preview">
+											<a href={project.link} target="_blank" rel="noreferrer">
+												<img
+													className="h-7 hover:ring-black hover:ring-2 rounded-full"
+													src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Web_icon.png"
+													alt="Preview"
+												/>
+											</a>
+										</TooltipElement>
 									)}
 								</div>
 							</div>

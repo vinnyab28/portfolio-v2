@@ -51,7 +51,7 @@ const Header = () => {
 			<div className="container mx-auto py-4 px-4 md:px-0 flex items-center justify-between">
 				<div className="logo font-bold text-5xl">VPG</div>
 				<button
-					className="md:hidden border-black border-4 border-r-8 border-b-8 p-3 flex flex-col gap-1"
+					className="md:hidden border-black border-4 border-r-8 border-b-8 p-2 flex flex-col gap-1"
 					onClick={() => setShowMenu((prevValue) => !prevValue)}
 				>
 					<span className="hamburger-icon h-1 w-6 bg-black hamburger-icon-1"></span>
@@ -69,7 +69,7 @@ const Header = () => {
 			<div className={`nav-panel w-lvw  md:hidden overflow-auto ${showMenu ? "h-auto" : "h-0"}`}>
 				<nav className="flex align-center p-4 border-t-2 flex-col gap-2">
 					{navLinks.map((link, index) => (
-						<a key={index} href={link.href} className={link.className} type="button">
+						<a key={index} href={link.href} className={link.className} type="button" onClick={() => setShowMenu(false)}>
 							{link.text}
 						</a>
 					))}
