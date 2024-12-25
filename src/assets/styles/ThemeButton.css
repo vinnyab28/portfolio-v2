@@ -1,0 +1,8 @@
+.t-button {
+	@apply border-black border-4 rounded-full bg-white p-1 px-4 shadow-lg shadow-black text-2xl;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.t-icon {
+}

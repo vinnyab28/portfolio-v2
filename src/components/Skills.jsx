@@ -1,19 +1,21 @@
+import { useContext } from "react";
+import { GlobalContext } from "../context/GlobalContext";
 import SkillsData from "../data/SkillsData";
 
 const Skills = () => {
 	const skills = SkillsData;
+	const { isSuperMode } = useContext(GlobalContext);
 
 	return (
-		<section className="skills bg-comic-blue" id="skills">
-			<h1 className="text-white" style={{ textShadow: "4px 3px 1px black" }}>
-				My Utility Belt
-			</h1>
+		<section className="skills dark:bg-comic-blue bg-pastel-blue" id="skills">
+			<h1 className="dark:text-white dark:comic-shadow-dark">{isSuperMode ? "My Utility Belt" : "Skills"}</h1>
 			<ul className="flex flex-wrap gap-5 justify-center">
 				{skills.map((category, index) => {
 					return (
 						<div
 							className={
-								"flex flex-col items-center border-4 border-r-8 border-b-8 border-black rounded-sm px-3 py-3 transition-shadow shadow-lg " + category.bgColor
+								"flex flex-col items-center border-2 dark:border-4 dark:border-r-8 dark:border-b-8 border-black rounded-lg dark:rounded-none px-3 py-3 transition-shadow shadow-lg " +
+								category.bgColor
 							}
 							key={index}
 						>
@@ -23,7 +25,7 @@ const Skills = () => {
 									<li
 										key={index}
 										className={
-											"flex items-center pl-3 pr-4 py-1 hover:font-bold  transition-all select-none border-4 border-r-8 border-b-8 border-black " +
+											"flex items-center pl-3 pr-4 py-1 hover:font-bold  transition-all select-none border-black border-2 dark:border-4 dark:border-r-8 dark:border-b-8 rounded-lg dark:rounded-none " +
 											category.pillBgColor
 										}
 									>

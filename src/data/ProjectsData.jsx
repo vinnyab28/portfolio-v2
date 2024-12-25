@@ -1,8 +1,24 @@
-const ProjectsData = [
+const WebProjectsData = [
+	{
+		title: "Creat-A-Port",
+		description:
+			"In the digital realm, this AWS-hosted app transforms user data into the powerful JSON format, crafting a shareable portfolio page that attracts the attention of recruiters like a beacon in the night.",
+		image: "📝",
+		technologies: [
+			{
+				name: "AWS",
+				image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/320px-Amazon_Web_Services_Logo.svg.png",
+			},
+			{
+				name: "React",
+				image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+			},
+			{ name: "Tailwind", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png" },
+		],
+	},
 	{
 		title: "Little Light",
 		description: "A mental wellness support hub crafted at Dalhousie University—your superhero sanctuary for the mind!",
-		// technologies: "HTML, CSS, JS, Bootstrap",
 		image: "😇",
 		technologies: [
 			{
@@ -37,7 +53,6 @@ const ProjectsData = [
 	{
 		title: "Re.Connect",
 		description: "A digital sidekick to connect and chat with job recommenders, brought to life at Dalhousie University!",
-		// technologies: "HTML, CSS, JS, Bootstrap",
 		image: "🧑‍💼",
 		technologies: [
 			{
@@ -118,7 +133,6 @@ const ProjectsData = [
 	{
 		title: "Wedding Reception A&K",
 		description: "A wedding reception invitation for my brother and sister-in-law—celebrating love like a legendary romance!",
-		// technologies: "HTML, CSS, JS, Bootstrap",
 		image: "💍",
 		technologies: [
 			{
@@ -142,10 +156,39 @@ const ProjectsData = [
 		link: "https://vinnyab28.github.io/a-and-k-reception/",
 		source: "https://github.com/vinnyab28/a-and-k-reception",
 	},
+];
+
+const DesignProjectsData = [
+	{
+		title: "HRM Transit",
+		description:
+			"With the precision of a master builder, I designed low-fidelity and high-fidelity app prototypes, wielding sketches, cognitive walkthroughs, and the mighty Figma to bring visions to life.",
+		image: "🚌",
+		technologies: [{ name: "Figma", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/160px-Figma-logo.svg.png" }],
+		headerImage: "",
+		link: "https://www.figma.com/design/CK7qFPGkL6HxXG2PF2Oiib/CSCI-5601---Transit-App?node-id=0-1&t=ynVKmU5MnBpJMFfS-1",
+	},
+	{
+		title: "Re.Connect",
+		description:
+			"As a sorcerer of design, I conjured wireframes, prototypes, and components, empowering the team with the tools needed to create a transformative user experience.",
+		image: "🧑‍💼",
+		technologies: [{ name: "Figma", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/160px-Figma-logo.svg.png" }],
+		headerImage: "",
+		link: "https://www.figma.com/design/A2A0WE5BEm7tmdO2HKqMKC/Re.Connect?node-id=0-1&t=KyW76P0QQcbW3N2p-1",
+	},
+	{
+		title: "Little Light",
+		description:
+			"With a flick of my design wand, I crafted wireframes, prototypes, and components, equipping the team with the essential artifacts to build a seamless communication platform.",
+		image: "😇",
+		technologies: [{ name: "Figma", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/160px-Figma-logo.svg.png" }],
+		headerImage: "",
+		link: "https://www.figma.com/design/j4rvkqp2Va4ZZfLDPTmowa/Adv-Web-GP?node-id=1320-45&t=qUDhh0Lphn51glTJ-1",
+	},
 	{
 		title: "3D Pokeballs",
 		description: "3D renderings of Pokéballs with various designs—leveling up my Blender skills like a true Pokémon master!",
-		// technologies: "HTML, CSS, JS, Bootstrap",
 		image: "https://www.pngall.com/wp-content/uploads/4/Pokemon-Pokeball-PNG-File.png",
 		technologies: [
 			{
@@ -159,4 +202,4 @@ const ProjectsData = [
 	},
 ];
 
-export default ProjectsData;
+export { DesignProjectsData, WebProjectsData };

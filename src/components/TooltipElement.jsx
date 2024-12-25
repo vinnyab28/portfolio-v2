@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import "../assets/styles/TooltipElement.css";
 
 const TooltipElement = ({ label, children }) => {
@@ -7,7 +7,7 @@ const TooltipElement = ({ label, children }) => {
 	return (
 		<div className="tooltip-wrapper inline-block relative" onMouseEnter={() => setShowTooltip(true)} onMouseOut={() => setShowTooltip(false)}>
 			<span className={"tooltip-content " + (showTooltip ? "visible" : "hidden")}>{label}</span>
-			<span>{children}</span>
+			{children}
 		</div>
 	);
 };

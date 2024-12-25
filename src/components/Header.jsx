@@ -1,32 +1,34 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { GlobalContext } from "../context/GlobalContext";
 
 const Header = () => {
-	const baseClassName = "p-2 font-bold border-black border-4 border-r-8 border-b-8 transition-all";
+	const baseClassName = "p-2 font-bold border-black rounded-lg dark:rounded-none border-2 dark:border-4 dark:border-r-8 dark:border-b-8 transition-all";
+	const { isSuperMode } = useContext(GlobalContext);
 	const navLinks = [
 		{
 			href: "#about",
-			className: `${baseClassName} hover:bg-comic-red hover:text-white`,
-			text: "Story",
+			className: `${baseClassName} dark:hover:bg-comic-red hover:bg-pastel-red dark:hover:text-white`,
+			text: isSuperMode ? "Story" : "About",
 		},
 		{
 			href: "#skills",
-			className: `${baseClassName} hover:bg-comic-blue hover:text-white`,
-			text: "Powers",
+			className: `${baseClassName} dark:hover:bg-comic-blue hover:bg-pastel-blue dark:hover:text-white`,
+			text: isSuperMode ? "Powers" : "Skills",
 		},
 		{
 			href: "#experience",
-			className: `${baseClassName} hover:bg-comic-green hover:text-white`,
-			text: "Journey",
+			className: `${baseClassName} dark:hover:bg-comic-green hover:bg-pastel-green dark:hover:text-white`,
+			text: isSuperMode ? "Journey" : "Experience",
 		},
 		{
 			href: "#projects",
-			className: `${baseClassName} hover:bg-comic-yellow`,
-			text: "Quests",
+			className: `${baseClassName} dark:hover:bg-comic-yellow hover:bg-pastel-yellow dark:hover:text-white`,
+			text: isSuperMode ? "Quests" : "Projects",
 		},
 		{
 			href: "#contact",
-			className: `${baseClassName} hover:bg-comic-violet hover:text-white`,
-			text: "Signal Me",
+			className: `${baseClassName} dark:hover:bg-comic-violet hover:bg-pastel-violet dark:hover:text-white`,
+			text: isSuperMode ? "Signal Me" : "Contact",
 		},
 	];
 
@@ -37,7 +39,6 @@ const Header = () => {
 	useEffect(() => {
 		if (typeof window !== "undefined") {
 			window.addEventListener("scroll", () => {
-				console.log(window.scrollY);
 				if (window.scrollY > 100) {
 					setBgOpacity("bg-black text-white");
 				} else {
@@ -47,7 +48,7 @@ const Header = () => {
 		}
 	}, []);
 	return (
-		<header className={`fixed w-lvw bg-white border-4 border-black top-0 transition-all`}>
+		<header className={`fixed w-lvw bg-white border-4 border-black top-0 transition-all z-10`}>
 			<div className="container mx-auto py-4 px-4 md:px-0 flex items-center justify-between">
 				<div className="logo font-bold text-5xl">VPG</div>
 				<button

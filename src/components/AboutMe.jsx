@@ -1,7 +1,11 @@
+import { useContext } from "react";
+import { GlobalContext } from "../context/GlobalContext";
+
 const AboutMe = () => {
+	const { isSuperMode } = useContext(GlobalContext);
 	return (
-		<section className="about-me bg-comic-red text-white" id="about">
-			<h1 style={{ textShadow: "4px 3px 1px black" }}>Who I Am</h1>
+		<section className="about-me dark:bg-comic-red bg-pastel-red dark:text-white" id="about">
+			<h1 className="dark:comic-shadow-dark">{isSuperMode ? "Who I Am" : "About Me"}</h1>
 			<div className="summary mx-auto font-bold w-full md:w-1/2">
 				<p>
 					Hi there! I’m passionate about using my skills to give back to the community. I enjoy working with Angular and find React to be a fun challenge. I

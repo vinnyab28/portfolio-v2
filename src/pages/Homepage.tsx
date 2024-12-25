@@ -1,12 +1,13 @@
-import React, { } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Title from '../components/Title';
+import React from 'react';
 import AboutMe from '../components/AboutMe';
-import Skills from '../components/Skills';
+import ContactMeSection from '../components/ContactMe';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 import ProfessionalExperience from '../components/ProfessionalExperience';
 import ProjectsSection from '../components/ProjectsSections';
-import ContactMeSection from '../components/ContactMe';
+import Skills from '../components/Skills';
+import ThemeButton from '../components/ThemeButton';
+import Title from '../components/Title';
 
 const Homepage = () => {
 
@@ -24,6 +25,7 @@ const Homepage = () => {
 				<section className="certifications"></section> */}
 				<ContactMeSection />
 				<Footer />
+				<ThemeButton />
 			</div>
 		</>
 	);

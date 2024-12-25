@@ -23,12 +23,16 @@ code {
 
 @layer components {
 	section {
-		@apply md:px-16 px-8 py-20 border-4 border-black border-r-8 border-b-8;
+		@apply md:px-16 px-8 py-20 border-2 dark:border-4 border-black dark:border-r-8 dark:border-b-8;
 		background-clip: border-box;
 	}
 
 	h1 {
 		@apply font-bold text-6xl pb-6;
+		font-family: "Yanone Kaffeesatz", sans-serif;
+	}
+	h2 {
+		@apply font-bold text-4xl pb-3;
 		font-family: "Yanone Kaffeesatz", sans-serif;
 	}
 	.logo {
@@ -38,5 +42,11 @@ code {
 	.name {
 		/* font-family: "Beyonders", sans-serif; */
 		font-family: "Komyca", sans-serif;
+	}
+	.comic-shadow-light {
+		text-shadow: 4px 3px 1px ivory;
+	}
+	.comic-shadow-dark {
+		text-shadow: 4px 3px 1px black;
 	}
 }

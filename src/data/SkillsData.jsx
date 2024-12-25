@@ -34,7 +34,7 @@ const SkillsData = [
 				name: "Spring Boot",
 				logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/240px-Spring_Boot.svg.png",
 			},
-			{ name: "Python", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png" },
+			// { name: "Python", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png" },
 			{ name: "MySQL", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/MySQL_Dolphin.jpg/233px-MySQL_Dolphin.jpg" },
 			{
 				name: "MongoDB",

@@ -1,10 +1,13 @@
 import "./App.css";
+import GlobalContextProvider from "./context/GlobalContext.js";
 import Homepage from "./pages/Homepage.tsx";
 
 function App() {
 	return (
 		<div className="App">
-			<Homepage />
+			<GlobalContextProvider>
+				<Homepage />
+			</GlobalContextProvider>
 			{/* <Header />
 			<div className="grid grid-cols-2">
 				<div className="wrapper p-6">
