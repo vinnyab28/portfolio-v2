@@ -6,7 +6,6 @@ import Header from '../components/Header';
 import ProfessionalExperience from '../components/ProfessionalExperience';
 import ProjectsSection from '../components/ProjectsSections';
 import Skills from '../components/Skills';
-import ThemeButton from '../components/ThemeButton';
 import Title from '../components/Title';
 
 const Homepage = () => {
@@ -25,7 +24,7 @@ const Homepage = () => {
 				<section className="certifications"></section> */}
 				<ContactMeSection />
 				<Footer />
-				<ThemeButton />
+				{/* <ThemeButton /> */}
 			</div>
 		</>
 	);

@@ -7,7 +7,7 @@ const ThemeButton = () => {
 
 	const handleThemeSwitch = () => {
 		themeSwitchHandler(!isSuperMode);
-		document.documentElement.setAttribute("data-theme", !isSuperMode ? "dark" : "");
+		document.documentElement.setAttribute("data-theme", isSuperMode ? "dark" : "");
 	};
 	return (
 		<button type="button" className="t-button rounded-full border-black" onClick={handleThemeSwitch}>
