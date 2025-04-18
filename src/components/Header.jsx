@@ -48,13 +48,10 @@ const Header = () => {
 		}
 	}, []);
 	return (
-		<header className={`fixed w-lvw bg-white border-4 border-black top-0 transition-all z-10`}>
+		<header className={`w-lvw bg-white border-4 border-black top-0 transition-all z-10`}>
 			<div className="container mx-auto py-4 px-4 md:px-0 flex items-center justify-between">
 				<div className="logo font-bold text-5xl">VPG</div>
-				<button
-					className="md:hidden border-black border-4 border-r-8 border-b-8 p-2 flex flex-col gap-1"
-					onClick={() => setShowMenu((prevValue) => !prevValue)}
-				>
+				<button className="md:hidden border-black border-4 border-r-8 border-b-8 p-2 flex flex-col gap-1" onClick={() => setShowMenu((prevValue) => !prevValue)}>
 					<span className="hamburger-icon h-1 w-6 bg-black hamburger-icon-1"></span>
 					<span className="hamburger-icon h-1 w-6 bg-black hamburger-icon-2"></span>
 					<span className="hamburger-icon h-1 w-6 bg-black hamburger-icon-3"></span>
