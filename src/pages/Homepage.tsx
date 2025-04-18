@@ -1,15 +1,14 @@
-import React from 'react';
-import AboutMe from '../components/AboutMe';
-import ContactMeSection from '../components/ContactMe';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import ProfessionalExperience from '../components/ProfessionalExperience';
-import ProjectsSection from '../components/ProjectsSections';
-import Skills from '../components/Skills';
-import Title from '../components/Title';
+import React from "react";
+import AboutMe from "../components/AboutMe";
+import ContactMeSection from "../components/ContactMe";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import ProfessionalExperience from "../components/ProfessionalExperience";
+import ProjectsSection from "../components/ProjectsSections";
+import Skills from "../components/Skills";
+import Title from "../components/Title";
 
 const Homepage = () => {
-
 	return (
 		<>
 			<Header />
@@ -17,8 +16,8 @@ const Homepage = () => {
 				<Title />
 				<AboutMe />
 				<Skills />
-				<ProfessionalExperience />
 				<ProjectsSection />
+				<ProfessionalExperience />
 				{/* <section className="education"></section>
 				<section className="recommendations"></section>
 				<section className="certifications"></section> */}

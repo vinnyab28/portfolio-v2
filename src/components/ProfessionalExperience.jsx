@@ -13,7 +13,7 @@ const ProfessionalExperience = () => {
 			<h1 className="dark:text-white dark:comic-shadow-dark">{isSuperMode ? "My Journey Map" : "Experience"}</h1>
 			<div className="grid md:grid-cols-6 md:grid-rows-3 grid-cols-1 grid-rows-2 gap-4 w-full text-left">
 				{experience.map((company, index) => (
-					<button className={` ${baseClassName} ` + (selectedCompanyIndex === index ? `bg-black text-white font-bold` : `bg-white`)} key={index} onClick={() => setSelectedCompanyIndex(index)}>
+					<button className={` ${baseClassName} ` + (selectedCompanyIndex === index ? `shadow-none translate-x-[4px] translate-y-[4px] bg-black text-white font-bold` : `bg-white`)} key={index} onClick={() => setSelectedCompanyIndex(index)}>
 						{company.name}
 					</button>
 				))}

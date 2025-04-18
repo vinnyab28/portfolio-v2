@@ -17,14 +17,14 @@ const Header = () => {
 			text: isSuperMode ? "Powers" : "Skills",
 		},
 		{
-			href: "#experience",
-			className: `${baseClassName} dark:hover:bg-comic-green hover:bg-pastel-green dark:hover:text-white`,
-			text: isSuperMode ? "Journey" : "Experience",
-		},
-		{
 			href: "#projects",
 			className: `${baseClassName} dark:hover:bg-comic-yellow hover:bg-pastel-yellow dark:hover:text-white`,
 			text: isSuperMode ? "Quests" : "Projects",
+		},
+		{
+			href: "#experience",
+			className: `${baseClassName} dark:hover:bg-comic-green hover:bg-pastel-green dark:hover:text-white`,
+			text: isSuperMode ? "Journey" : "Experience",
 		},
 		{
 			href: "#contact",
