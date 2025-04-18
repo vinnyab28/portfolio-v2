@@ -1,0 +1,5 @@
+ul.skill-list:has(li:hover) li:not(:hover) {
+	opacity: 0.5;
+	filter: blur(0.05em);
+	transition: all 0.4s;
+}

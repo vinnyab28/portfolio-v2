@@ -1,4 +1,4 @@
-import profilePic from "../assets/images/profile-pic.png";
+import ProfilePic from "../assets/images/profile-pic.png";
 
 const Title = () => {
 	return (
@@ -15,7 +15,7 @@ const Title = () => {
 					<div className="title mx-auto md:mx-0 md:text-left text-center fold-bold md:text-3xl text-xl mt-5 tracking-widest">Full Stack Developer</div>
 				</div>
 				<div className="profile-picture">
-					<img src={profilePic} alt="Profile Pic" className="w-fit" />
+					<img src={ProfilePic} alt="Profile Pic" />
 				</div>
 			</div>
 		</section>

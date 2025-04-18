@@ -4,7 +4,8 @@
 
 @font-face {
 	font-family: "Komyca";
-	src: url("../src/assets/fonts/Komyca.ttf") format("truetype");
+	src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../src/assets/fonts/Komyca.ttf") format("truetype");
+	font-display: swap;
 }
 
 html {

@@ -16,18 +16,11 @@ const ProjectsSection = () => {
 				<div className="grid md:grid-cols-3 grid-cols-1 gap-4">
 					{webProjects.map((project, index) => {
 						return (
-							<div
-								className="project-card bg-white flex flex-col border-black border-2 dark:border-4 dark:border-r-8 dark:border-b-8 rounded-sm p-4 overflow-hidden"
-								key={index}
-							>
+							<div className="project-card bg-white flex flex-col border-black border-2 dark:border-4 dark:border-r-8 dark:border-b-8 rounded-sm p-4 overflow-hidden" key={index}>
 								<div className="project-card-header flex items-center gap-4">
 									<div className="project-card-icon flex  rounded-sm justify-center items-center">
 										{/* <img src={project.image} className="w-12 h-12" /> */}
-										{project.image.length > 5 ? (
-											<img src={project.image} className="h-8" alt={project.title} />
-										) : (
-											<p className="text-3xl dark:comic-shadow-dark">{project.image}</p>
-										)}
+										{project.image.length > 5 ? <img src={project.image} className="h-8" alt={project.title} /> : <p className="text-3xl dark:comic-shadow-dark">{project.image}</p>}
 										{/* <p className="text-3xl " style={{ textShadow: "4px 3px 1px black" }}>
 										{project.image}
 									</p> */}
@@ -47,22 +40,14 @@ const ProjectsSection = () => {
 										{project.source && (
 											<TooltipElement label="Source">
 												<a href={project.source} target="_blank" rel="noreferrer">
-													<img
-														className="h-7 hover:ring-black hover:ring-2 rounded-full"
-														src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png"
-														alt="GitHub"
-													/>
+													<img className="h-7 hover:ring-black hover:ring-2 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png" alt="GitHub" />
 												</a>
 											</TooltipElement>
 										)}
 										{project.link && (
 											<TooltipElement label="Preview">
 												<a href={project.link} target="_blank" rel="noreferrer">
-													<img
-														className="h-7 hover:ring-black hover:ring-2 rounded-full"
-														src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Web_icon.png"
-														alt="Preview"
-													/>
+													<img className="h-7 hover:ring-black hover:ring-2 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Web_icon.png" alt="Preview" />
 												</a>
 											</TooltipElement>
 										)}
@@ -73,24 +58,17 @@ const ProjectsSection = () => {
 					})}
 				</div>
 			</div>
-			<hr className="my-4" />
+			<hr className="my-4 border-black border-2" />
 			<div>
 				<h2 className="font-bold text-left">Design {isSuperMode ? "Quests" : "Projects"}</h2>
 				<div className="grid md:grid-cols-3 grid-cols-1 gap-4">
 					{designProjects.map((project, index) => {
 						return (
-							<div
-								className="project-card bg-white flex flex-col border-black border-2 dark:border-4 dark:border-r-8 dark:border-b-8 rounded-sm p-4 overflow-hidden"
-								key={index}
-							>
+							<div className="project-card bg-white flex flex-col border-black border-2 dark:border-4 dark:border-r-8 dark:border-b-8 rounded-sm p-4 overflow-hidden" key={index}>
 								<div className="project-card-header flex items-center gap-4">
 									<div className="project-card-icon flex  rounded-sm justify-center items-center">
 										{/* <img src={project.image} className="w-12 h-12" /> */}
-										{project.image.length > 5 ? (
-											<img src={project.image} className="h-8" alt={project.title} />
-										) : (
-											<p className="text-3xl dark:comic-shadow-dark">{project.image}</p>
-										)}
+										{project.image.length > 5 ? <img src={project.image} className="h-8" alt={project.title} /> : <p className="text-3xl dark:comic-shadow-dark">{project.image}</p>}
 										{/* <p className="text-3xl " style={{ textShadow: "4px 3px 1px black" }}>
 										{project.image}
 									</p> */}
@@ -110,22 +88,14 @@ const ProjectsSection = () => {
 										{project.source && (
 											<TooltipElement label="Source">
 												<a href={project.source} target="_blank" rel="noreferrer">
-													<img
-														className="h-7 hover:ring-black hover:ring-2 rounded-full"
-														src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png"
-														alt="GitHub"
-													/>
+													<img className="h-7 hover:ring-black hover:ring-2 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png" alt="GitHub" />
 												</a>
 											</TooltipElement>
 										)}
 										{project.link && (
 											<TooltipElement label="Preview">
 												<a href={project.link} target="_blank" rel="noreferrer">
-													<img
-														className="h-7 hover:ring-black hover:ring-2 rounded-full"
-														src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Web_icon.png"
-														alt="Preview"
-													/>
+													<img className="h-7 hover:ring-black hover:ring-2 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Web_icon.png" alt="Preview" />
 												</a>
 											</TooltipElement>
 										)}

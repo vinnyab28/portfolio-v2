@@ -2,7 +2,8 @@ import { useContext, useEffect, useState } from "react";
 import { GlobalContext } from "../context/GlobalContext";
 
 const Header = () => {
-	const baseClassName = "p-2 font-bold border-black rounded-lg dark:rounded-none border-2 dark:border-4 dark:border-r-8 dark:border-b-8 transition-all";
+	// const baseClassName = "p-2 font-bold rounded-lg dark:rounded-none border-2 border-black border-4 border-b-8 border-e-8 hover:border-b-4 hover:border-e-4 hover:translate-x-[2px] hover:translate-y-[2px] transition-all";
+	const baseClassName = "p-2 font-bold rounded-lg dark:rounded-none border-4 border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all";
 	const { isSuperMode } = useContext(GlobalContext);
 	const navLinks = [
 		{
@@ -48,7 +49,7 @@ const Header = () => {
 		}
 	}, []);
 	return (
-		<header className={`w-lvw bg-white border-4 border-black top-0 transition-all z-10`}>
+		<header className={`w-lvw sticky bg-white border-4 border-black top-0 transition-all z-10`}>
 			<div className="container mx-auto py-4 px-4 md:px-0 flex items-center justify-between">
 				<div className="logo font-bold text-5xl">VPG</div>
 				<button className="md:hidden border-black border-4 border-r-8 border-b-8 p-2 flex flex-col gap-1" onClick={() => setShowMenu((prevValue) => !prevValue)}>
