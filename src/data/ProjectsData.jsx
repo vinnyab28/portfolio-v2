@@ -1,5 +1,27 @@
 const WebProjectsData = [
 	{
+		title: "Open Sports Cal",
+		description:
+			"A public repository of iCalendar (.ics) files for sports events—subscribe to your favourite team's schedule directly in Google Calendar, Apple Calendar, or Outlook!",
+		image: "🏆",
+		technologies: [
+			{
+				name: "Python",
+				image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/240px-Python-logo-notext.svg.png",
+			},
+			{
+				name: "GitHub Actions",
+				image: "https://avatars.githubusercontent.com/u/44036562?s=200&v=4",
+			},
+			{
+				name: "GitHub Pages",
+				image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/240px-Octicons-mark-github.svg.png",
+			},
+		],
+		link: "https://vinnyab28.github.io/open-sports-cal/",
+		source: "https://github.com/vinnyab28/open-sports-cal",
+	},
+	{
 		title: "Creat-A-Port",
 		description:
 			"In the digital realm, this AWS-hosted app transforms user data into the powerful JSON format, crafting a shareable portfolio page that attracts the attention of recruiters like a beacon in the night.",
