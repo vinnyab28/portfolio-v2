@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Vineeth Prakash Gudipalli — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio website showcasing my work, skills, and experience as a Full Stack Developer.
 
-## Available Scripts
+🌐 **Live site:** https://vineeth-prakash.vercel.app/
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Passionate Full Stack Developer with experience building dashboards, web apps, and open-source tools. I enjoy working with Angular and find React a fun challenge. I pay close attention to UI details and believe in simplicity. Big fan of Formula 1, and I love playing the guitar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Deployed on [Vercel](https://vercel.com/)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Projects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Web
+| Project | Description | Tech | Links |
+|---------|-------------|------|-------|
+| 🏆 Open Sports Cal | Public repository of iCalendar (.ics) files for sports events — subscribe to your favourite team's schedule in Google Calendar, Apple Calendar, or Outlook | Python, GitHub Actions, GitHub Pages | [Live](https://vinnyab28.github.io/open-sports-cal/) · [Source](https://github.com/vinnyab28/open-sports-cal) |
+| 📝 Creat-A-Port | AWS-hosted app that transforms user data into JSON format for shareable portfolio pages | AWS, React, Tailwind | — |
+| 😇 Little Light | Mental wellness support hub built at Dalhousie University | React, Material Design, Bootstrap, Spring Boot, MySQL | [Live](https://little-light.netlify.app/) |
+| 🧑‍💼 Re.Connect | Platform to connect and chat with job recommenders | Angular, Sass, PrimeNG, Spring Boot, MySQL, Docker | [Live](https://csci-5308-re-connect.netlify.app/#/login) |
+| 🎄 Thrill of Hope | Interactive Christmas invitation for church | HTML5, CSS3, JavaScript, Webpack | [Live](https://www.wccbangalore.org/hope) · [Source](https://github.com/vinnyab28/thrill-of-hope) |
+| 🎸 Guitar Chords | Tool for transposing and modifying chord scales | Angular, Bootstrap | [Live](https://vinnyab28.github.io/guitar-chords/) · [Source](https://github.com/vinnyab28/guitar-chords) |
+| 💍 Wedding Reception A&K | Wedding reception invitation for family | HTML5, CSS3, JavaScript, Bootstrap | [Live](https://vinnyab28.github.io/a-and-k-reception/) · [Source](https://github.com/vinnyab28/a-and-k-reception) |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Design
+| Project | Description | Tool | Link |
+|---------|-------------|------|------|
+| 🚌 HRM Transit | Low and high-fidelity app prototypes | Figma | [View](https://www.figma.com/design/CK7qFPGkL6HxXG2PF2Oiib/CSCI-5601---Transit-App) |
+| 🧑‍💼 Re.Connect | Wireframes, prototypes, and components | Figma | [View](https://www.figma.com/design/A2A0WE5BEm7tmdO2HKqMKC/Re.Connect) |
+| 😇 Little Light | Wireframes, prototypes, and components | Figma | [View](https://www.figma.com/design/j4rvkqp2Va4ZZfLDPTmowa/Adv-Web-GP) |
+| 🎮 3D Pokeballs | 3D renderings of Pokéballs | Blender | [View](https://www.behance.net/gallery/210838469/Pokeballs) |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Skills
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Frontend:** HTML, CSS, SCSS, JavaScript, TypeScript, Angular, React, jQuery, Tailwind, Bootstrap, Material Design, PrimeNG, D3.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Backend:** Node.js, Express, Java, Spring Boot, MySQL, MongoDB
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Cloud & DevOps:** AWS, Docker, Render, GitHub Actions
 
-## Learn More
+**Design:** Figma, Sketch, Blender
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Tools:** Git, GitHub, GitLab, JIRA, Confluence, Postman, Webpack, Gulp
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Experience
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Role | Company | Period |
+|------|---------|--------|
+| Engineer CL-2 | Samsung Electro-Mechanics, Bangalore | Nov 2021 – Dec 2023 |
+| Front-End Developer | GrabOn, Hyderabad | Sep 2020 – Nov 2021 |
+| Associate Engineer | Tata Elxsi, Bangalore | Jul 2018 – Aug 2020 |
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Education
 
-### Making a Progressive Web App
+| Degree | Institution | Period |
+|--------|-------------|--------|
+| Masters in Applied Computer Science | Dalhousie University, Halifax, NS | Jan 2024 – Aug 2025 |
+| B.E. Computer Science (CGPA 8.3) | Karunya University, Coimbatore | Jul 2014 – May 2018 |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Connect
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [LinkedIn](https://www.linkedin.com/in/vineeth-prakash)
+- [GitHub](https://www.github.com/vinnyab28)
+- [Behance](https://www.behance.net/vineethgudipalli)
+- [YouTube](https://www.youtube.com/vinnyscrib)
