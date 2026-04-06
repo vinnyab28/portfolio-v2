@@ -33,21 +33,8 @@ const Header = () => {
 		},
 	];
 
-	const [bgOpacity, setBgOpacity] = useState("");
-
 	const [showMenu, setShowMenu] = useState(false);
 
-	useEffect(() => {
-		if (typeof window !== "undefined") {
-			window.addEventListener("scroll", () => {
-				if (window.scrollY > 100) {
-					setBgOpacity("bg-black text-white");
-				} else {
-					setBgOpacity("bg-white text-black");
-				}
-			});
-		}
-	}, []);
 	return (
 		<header className={`w-lvw sticky bg-white border-4 border-black top-0 transition-all z-10`}>
 			<div className="container mx-auto py-4 px-4 md:px-0 flex items-center justify-between">
